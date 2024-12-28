@@ -20,9 +20,11 @@
 #define BLOCKS(X)             \
     X("", "xkbgroup get symbol", 3, 17) \
     X("", "sb-memory", 10, 4) \
+    X("", "sb-disk", 1800, 5) \
     X("", "sb-volume", 0, 8)  \
     X("", "sb-battery", 5, 9) \
     X("", "sb-network", 5, 7) \
+    X("", "sb-weather", 3600, 11) \
     X("", "date '+%b %d (%a) %I:%M%p'", 1, 10) \
 
 #endif  // CONFIG_H
